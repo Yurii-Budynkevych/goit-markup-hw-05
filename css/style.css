@@ -346,6 +346,39 @@ h1,h2,h3,h4,h5,h6 {
 .what-we-do-list li+li {
     margin-left: 30px;
 }
+.thumb {
+    position: relative;
+    overflow: hidden;
+}
+.do-img {
+    display: block;
+    width: 100%;
+}
+.thumb .label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    transform: translateY(70px);
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+.thumb:hover .label {
+    transform: translateY(0);
+}
 .our-team-section {
     padding-top: 94px;
     padding-bottom: 124px;
@@ -537,9 +570,37 @@ h1,h2,h3,h4,h5,h6 {
     padding-right: 24px;
     padding-bottom: 20px;
 }
+.portfolio-thumb {
+    position: relative;
+    overflow: hidden;
+}
 .portfolio-img {
     width: 100%;
     display: block;
+}
+.portfolio-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-right: 24px;
+    padding-left: 24px;
+    transform: translateY(100%);
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color: rgba(33, 150, 243, 0.9);
+}
+.portfolio-box:hover .portfolio-label {
+    transform: translateY(0);
 }
 .portfolio-titles {
     margin-top: 0;
